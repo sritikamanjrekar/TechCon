@@ -10,7 +10,160 @@ header {
     width: 100%;
     position: absolute;
     top: 0;
-    z-index: 2;
+
+
+}
+
+
+
+
+
+.bg {
+    background-color: rgb(20, 58, 82, 0.5);
+
+}
+
+.navbar {
+    padding: 0;
+
+}
+
+.navbar-toggler:focus {
+    box-shadow: white;
+}
+
+.navbar .navbar-brand {
+    width: 5%;
+    height: 80%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width:320px) {
+
+    
+
+    .navbar .navbar-brand {
+        width: 50px;
+
+        z-index: 2;
+    }
+
+    .navbar .navbar-toggler i {
+        z-index: 3;
+    }
+
+    .nav-item {
+        z-index: 5;
+    }
+
+
+
+
+    #carousel-item {
+        background: #143A52;
+        width: 100%;
+        height: 100%;
+    }
+
+    #carousel-item img {
+        height: 210px;
+        margin-top: 230px;
+    }
+
+
+    .content-section .content #about-subtitle {
+        font-size: 15px;
+    }
+
+    .section .container {
+        margin-left: 0px;
+
+
+    }
+
+    .container {
+        width: 300px;
+    }
+
+    .content-section .content #about-paragraph{
+
+        font-size: 13px;
+        
+
+    }
+
+    .section .container {
+       
+        padding-top: 10px;
+    }
+
+    .container .image-section img {
+       height: 400px;
+    }
+
+    .navbar{
+       width:320px;
+       text-align: center;
+    }
+
+    
+
+
+     #team-title{
+        margin-top: 200px;
+    }
+
+    /* #home,#about,#team,#services,#contact
+    {
+        overflow-x: hidden;
+    } */
+
+   #team .wrapper .content-box {
+        margin-top: 0px;
+        /* display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap; */
+        /* width: 100px; */
+        margin-left: -14px;
+       
+        
+    }
+
+    #team .wrapper .content-box .card {
+       
+    width: 0px;
+    padding: 7px;
+    margin: 10px 0px;
+    min-height:auto ;
+    
+    }
+
+    #team .wrapper .content-box .card h2 {
+        margin: 13px;
+        font-weight: 400;
+        text-align: center;
+        font-size: 19px;
+        /* margin-top: -50px; */
+        
+    }
+
+    #team .wrapper .content-box .card p {
+        
+        font-size: 13px;
+    }
+
+    #team .wrapper .content-box .card .social {
+        
+        margin-bottom: 10px;
+    }
+
+    
+
 
 }
 
@@ -71,6 +224,9 @@ header {
     border-color: #143A52;
     /* blue */
 }
+
+
+
 
 /* /1 */
 
@@ -348,7 +504,7 @@ body {
 /* TEAM SECTION START */
 
 .service-title {
-   
+
 
     display: flex;
     justify-content: center;
@@ -556,6 +712,7 @@ body {
     font-family: sans-serif;
     font-size: 18px;
     line-height: 1.5;
+    text-align: justify;
 }
 
 .content-section .content .button {
@@ -594,10 +751,11 @@ body {
 
 @media screen and (max-width:768px) {
     .container {
-        width: 80%;
+        width: 100%;
         display: block;
         margin: auto;
         padding-top: 50px;
+
     }
 
     .content-section {
@@ -1054,7 +1212,52 @@ body{
 } */
 
 
+.title .project-title {
+    margin-top: 60px;
+}
 
+#projects {
+    height: 100vh;
+}
+
+#projects .title {
+    margin-top: -200px;
+}
+
+#contact .contactUs .title h2 {
+    margin-top: 170px;
+}
+
+#services .title {
+    margin-top: 10px;
+}
+
+#services .title h2 {
+    margin-top: 59px;
+}
+
+
+
+#team {
+    margin-top: -190px;
+}
+
+#team .title h2 {
+    margin-top: 59px;
+}
+
+#about .title h2 {
+    margin-top: 59px;
+}
+
+#home header {
+    position: fixed;
+    z-index: 4;
+}
+
+#home #carouselExampleFade {
+    background: #143A52;
+}
 
 /* .img-slider{
     position: relative;
