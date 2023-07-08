@@ -43,15 +43,299 @@ header {
     box-sizing: border-box;
 }
 
-@media only screen and (max-width:320px) {
+
+@media only screen and (max-width:426px) and (min-width:375px) {
+
+    .navbar .navbar-brand {
+        width: 60px;
+        
+        z-index: 2;
+    }
 
     
 
+    .navbar .navbar-toggler i {
+        z-index: 3;
+    }
+
+    .nav-item {
+        z-index: 5;
+    }
+
+    .navbar-toggler i{
+       font-size: 30px;
+    }
+    
+  
+    #carousel-item {
+        background: #143A52;
+        width: 100%;
+        height: 100%;
+    }
+
+    #carousel-item img {
+        height: 210px;
+        margin-top: 230px;
+    }
+
+
+    .content-section .content #about-subtitle {
+        font-size: 15px;
+    }
+
+    .section .container {
+        margin-left: 0px;
+
+
+    }
+
+    .container {
+        width: 300px;
+    }
+
+    .content-section .content #about-paragraph {
+
+        font-size: 14px;
+
+
+    }
+
+    .section .container {
+
+        padding-top: 10px;
+    }
+
+    .container .image-section img {
+        height: 400px;
+    }
+
+    .navbar {
+        width: 375px;
+        text-align: center;
+    }
+
+    #about{
+        margin-bottom: 200px;
+    }
+
+
+    #team-title {
+        margin-top: 0px;
+    }
+
+    #home,#about,#team,#services,#contact
+    {
+        overflow-x:hidden;
+    }
+
+    #team .wrapper .content-box {
+        margin-top: 0px;
+       
+        margin-left: -14px;
+
+
+    }
+
+    #team .wrapper .content-box .card {
+
+        width: 350px;
+        padding: 7px;
+        margin: 10px 0px;
+        min-height: 350px;
+
+    }
+
+    #team .wrapper .content-box .card h2 {
+        margin: 15px;
+        font-weight: 600;
+        text-align: center;
+        font-size: 19px;
+        /* margin-top: -50px; */
+
+    }
+
+    #team .wrapper .content-box .card p {
+
+        font-size: 14px;
+    }
+
+    #team .wrapper .content-box .card .social {
+
+        margin-bottom: 10px;
+    }
+
+    #services .main {
+
+        margin-top: 0px;
+
+        display: contents;
+
+    }
+
+    #services .main1 {
+
+        margin-top: 0px;
+
+        display: contents;
+
+    }
+
+    #services .profile-card {
+
+        position:relative;
+        width: 200px;
+        height: 200px;
+        padding: 30px;
+        margin-top: 40px;
+        margin-left: 90px;
+       
+
+    }
+
+    #services .profile-card .caption h3{
+
+        font-size: 17px;
+
+    }
+
+    #lastprofile320{
+        margin-bottom: 230px ;
+    }
+
+    #projects .container {
+        width: 360px;
+        margin-left: 0px;
+    }
+
+
+    #contact .box {
+        position: relative;
+        display:block;
+        margin-top: 0px;
+    }
+
+    #contact .contactUs {
+        position: relative;
+        width: 100%;
+        padding: 0px 10px;
+        
+    }
+
+    #contact .contactUs .title {
+        
+        margin-top: 0px;
+        margin: 0px;
+    }
+
+
+
+
+    #contact .contactUs .title #contactTitle320 {
+        margin-top: 60px;
+    }
+
+    #projects{
+        margin-bottom: 30px;
+    }
+
+    #contactForm {
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    #contactForm h3{
+        padding-top: 20px;
+    }
+
+    #contact .formBox .row50 {
+        display: block;
+        gap: 20px;
+    }
+
+    #contact  #inputBox {
+        /* display: flex;
+        flex-direction: column;
+        margin-bottom: 10px; */
+        width:100%;
+    }
+
+    #contact #contactInfo320{
+        padding: 20px;
+    }
+
+    #contact .info .infoBox div span {
+        min-width: 35px;
+        height: 35px;
+        font-size: 1.5em;
+        margin-right: 10px;
+    }
+
+    #contact .info .infoBox div p {
+        margin-bottom: 0px;
+        font-size: 16px;
+    }
+
+    
+
+    #contact .info .infoBox div {
+        
+        margin: 10px;
+       
+    }
+
+    #contact .info .infoBox div a {
+        
+       font-size:16.8px;
+    }
+
+    #contact .map{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #contact iframe{
+        height: 350;
+    }
+
+    body footer p{
+        
+            
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-size: 17.5px;
+            text-align: center;
+        
+    }
+
+
+    
+
+
+
+
+
+
+
+   
+    
+
+
+
+    
+}
+
+
+@media only screen and (max-width:320px)   {
+
+
+
     .navbar .navbar-brand {
         width: 50px;
-
+        
         z-index: 2;
     }
+
+    
 
     .navbar .navbar-toggler i {
         z-index: 3;
@@ -90,81 +374,240 @@ header {
         width: 300px;
     }
 
-    .content-section .content #about-paragraph{
+    .content-section .content #about-paragraph {
 
         font-size: 13px;
-        
+
 
     }
 
     .section .container {
-       
+
         padding-top: 10px;
     }
 
     .container .image-section img {
-       height: 400px;
+        height: 400px;
     }
 
-    .navbar{
-       width:320px;
-       text-align: center;
+    .navbar {
+        width: 320px;
+        text-align: center;
     }
 
-    
-
-
-     #team-title{
-        margin-top: 200px;
+    #about{
+        margin-bottom: 200px;
     }
 
-    /* #home,#about,#team,#services,#contact
-    {
-        overflow-x: hidden;
-    } */
 
-   #team .wrapper .content-box {
+    #team-title {
         margin-top: 0px;
-        /* display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap; */
-        /* width: 100px; */
-        margin-left: -14px;
+    }
+
+    #home,#about,#team,#services,#contact
+    {
+        overflow-x:hidden;
+    }
+
+    #team .wrapper .content-box {
+        margin-top: 0px;
        
-        
+        margin-left: -14px;
+
+
     }
 
     #team .wrapper .content-box .card {
-       
-    width: 0px;
-    padding: 7px;
-    margin: 10px 0px;
-    min-height:auto ;
-    
+
+        width: 0px;
+        padding: 7px;
+        margin: 10px 0px;
+        min-height: auto;
+
     }
 
     #team .wrapper .content-box .card h2 {
         margin: 13px;
-        font-weight: 400;
+        font-weight: 600;
         text-align: center;
         font-size: 19px;
         /* margin-top: -50px; */
-        
+
     }
 
     #team .wrapper .content-box .card p {
-        
+
         font-size: 13px;
     }
 
     #team .wrapper .content-box .card .social {
-        
+
         margin-bottom: 10px;
+    }
+
+    #services .main {
+
+        margin-top: 0px;
+
+        display: contents;
+
+    }
+
+    #services .main1 {
+
+        margin-top: 0px;
+
+        display: contents;
+
+    }
+
+    #services .profile-card {
+
+        position:relative;
+        width: 200px;
+        height: 200px;
+        padding: 30px;
+        margin-top: 40px;
+        margin-left: 60px;
+       
+
+    }
+
+    #services .profile-card .caption h3{
+
+        font-size: 17px;
+
+    }
+
+    #lastprofile320{
+        margin-bottom: 230px ;
+    }
+
+    #projects .container {
+        width: 300px;
+        margin-left: 0px;
+    }
+
+
+    #contact .box {
+        position: relative;
+        display:block;
+        margin-top: 0px;
+    }
+
+    #contact .contactUs {
+        position: relative;
+        width: 100%;
+        padding: 0px 10px;
+        
+    }
+
+    #contact .contactUs .title {
+        
+        margin-top: 0px;
+        margin: 0px;
+    }
+
+
+
+
+    #contact .contactUs .title #contactTitle320 {
+        margin-top: 40px;
+    }
+
+    #projects{
+        margin-bottom: 30px;
+    }
+
+    #contactForm {
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    #contactForm h3{
+        padding-top: 20px;
+    }
+
+    #contact .formBox .row50 {
+        display: block;
+        gap: 20px;
+    }
+
+    #contact  #inputBox {
+        /* display: flex;
+        flex-direction: column;
+        margin-bottom: 10px; */
+        width:100%;
+    }
+
+    #contact #contactInfo320{
+        padding: 20px;
+    }
+
+    #contact .info .infoBox div span {
+        min-width: 25px;
+        height: 25px;
+        font-size: 1em;
+        margin-right: 10px;
+    }
+
+    #contact .info .infoBox div p {
+        margin-bottom: 0px;
+        font-size: 15px;
     }
 
     
 
+    #contact .info .infoBox div {
+        
+        margin: 10px;
+       
+    }
 
+    #contact .info .infoBox div a {
+        
+       font-size:14.8px;
+    }
+
+    #contact .map{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #contact iframe{
+        height: 350;
+    }
+
+    body footer p{
+        
+            
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-size: 14.5px;
+            text-align: center;
+        
+    }
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+}
+
+iframe{
+    width:"600";
+     height:"450"; 
+     border:0;
 }
 
 
